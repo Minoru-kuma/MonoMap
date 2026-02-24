@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.venv/
+venv/
+
+# SQLite database
+backend/monomap.db
+
+# Uploaded files
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# YOLO model weights
+*.pt
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Misc
+.DS_Store
+*.log
